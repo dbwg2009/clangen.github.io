@@ -20,8 +20,8 @@ WIDTH=2360  # 2360
 HEIGHT=1640  # 1640
 
 # reference/idealized screen pixels
-REFX = 2360
-REFY = 1640
+REFX = 1920
+REFY = 1080
 
 def u(real, ref, v):
     if abs(v)<0.9999999:
@@ -268,7 +268,7 @@ config = {
         #status {
             display: inline-block;
             vertical-align: top;
-            margin-top: 20px;
+            margin-top: 0px;
             margin-left: 30px;
             font-weight: bold;
             color: rgb(120, 120, 120);
@@ -289,7 +289,7 @@ config = {
             border: 0px none;
             background-color: transparent;
             width: 90%;
-            height=90%;
+            height=60%;
             z-index: 5;
 
             padding: 0;
@@ -297,7 +297,7 @@ config = {
 
             position: absolute;
             top: 0;
-            bottom: 0;
+            bottom: 10;
             left: 0;
             right: 0;
         }
